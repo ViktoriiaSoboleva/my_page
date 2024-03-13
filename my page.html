@@ -16,9 +16,9 @@
                 <div class="logo"> THE SUPAFLY FLIGHT SCHOOL</div>
                 <nav id="top-nav">
                     <ul>
-                        <li> <a href="#about"> About me </a> </li>
-                        <li> <a href="#flight"> Flight Routes</a> </li>
-                        <li> <a href="#studying"> Studying Process</a> </li>
+                        <li id="li1"> <a href="#about"> About me </a> </li>
+                        <li id="li2"> <a href="#flight"> Flight Routes</a> </li>
+                        <li id="li3"> <a href="#studying"> Studying Process</a> </li>
                     </ul>  
                 </nav>
                 <button class="button-contact"> Contact </button>
@@ -27,7 +27,7 @@
                 <h1>VIKTORIIA SOBOLEVA</h1> 
                 <img src="titlepic.jpg" alt="Banner Image" />
                 <div class="intro-wrapper">
-                    <p>Hi! I'm super duper lalala</p>
+                    <p id="intro">Hi! I'm super duper lalala</p>
                     <button class="button-getstarted">Get Started</button>
                 </div>
             </div>
@@ -35,25 +35,26 @@
         <!--End Header-->
         <!--Start flight routes block-->
         <div class="flight-routes-wrapper">
-
             <h2>(1) Flight routes</h2>
-
-            <div class="route1">
-                <img src="#rout1" alt="Banner Image"/>
-                <p>Rout 1</p>
+            
+            <div class="all-routes">
+                <div class="route1">
+                <img src="chart.jpg" alt="Banner Image"/>
+                <p id="Rout1">Rout 1</p>
                 <button class="button-learnmore">Learn More</button>
-            </div>
+                </div>
 
-            <div class="route2">
-                <img src="#rout2" alt="Banner Image"/>
-                <p>Rout 2</p>
+                <div class="route2">
+                <img src="chart.jpg" alt="Banner Image"/>
+                <p id="Rout2">Rout 2</p>
                 <button class="button-learnmore">Learn More</button>
-            </div>
+                </div>
 
-            <div class="route3">
-                <img src="#route3" alt="Banner Image"/>
-                <p>Rout 3</p>
+                <div class="route3">
+                <img src="chart.jpg" alt="Banner Image"/>
+                <p id="Rout3">Rout 3</p>
                 <button class="button-learnmore">Learn More</button>
+                </div>
             </div>
         </div>
         <!--End flight routes block-->
@@ -62,9 +63,9 @@
             <h2>(2) Studying process</h2>
 
             <div class="ground-training">
-                <h3>Ground Training</h3>
+                <h3>Ground training</h3>
                 <hr>
-                <p>The class will consist of 8 hours of ground training, where you 
+                <p id="ground-training">This class will consist of 8 hours of ground training, where you 
                     will learn the basics of how to fly. You will learn the fundamentals of 
                     performance considerations, developing go-no-go judgment skills, 
                     mountain flight planning, and developing confidence for flying.
@@ -74,7 +75,7 @@
             <div class="flight-sim-train">
                 <h3>Flight simulator training</h3>
                 <hr>
-                <p>This helpful training tool allows students to practice flight skills and 
+                <p id="flight-sim-train">This helpful training tool allows students to practice flight skills and 
                     instrument controls in a safe and controlled environment. Students are 
                     able to calmly execute maneuvers and standard protocol in a flight 
                     simulator, and they have better chances of learning and becoming 
@@ -83,9 +84,9 @@
             </div>
 
             <div class="primary-flight-train">
-                <h3>Primary Flying Training</h3>
+                <h3>Primary flight training</h3>
                 <hr>
-                <p>In the air you learn the fundamentals of all flying; to climb, to glide, to 
+                <p id="primary-flight-train">In the air you learn the fundamentals of all flying; to climb, to glide, to 
                     fly straight and level, and to turn. Other very important techniques 
                     learned in this stage are: taxying, take-offs, 
                     landings, out of wind landings (drift correction), power on landings, 
@@ -96,37 +97,47 @@
             <div class="debriefing">
                 <h3>Debriefing</h3>
                 <hr>
-                <p>In professional practice, debriefing is a highly effective learning and 
+                <p id="debriefing">In professional practice, debriefing is a highly effective learning and 
                     teaching practice. The focus of a debriefing session should be on the person 
                     who performed the task, by allowing them ample time to talk about their 
                     performance and engage in self-reflection.
                 </p>
             </div>
+            
+            <div class="exam-prep">
+                <h3>Exam prep</h3>
+                <hr>
+                <p id="exam-prep">This will not only demonstrate your commitment to safety and professionalism 
+                    but also equip you with the knowledge and skills necessary to become a competent pilot. 
+                    The exam covers a wide range of topics including meteorology, aerodynamics, navigation, regulations, and more.
+                </p>
+            </div>
         </div>
         <!--End studying proc block-->
-    </div>
-    <!-- Main content ends here -->
-    <!--Footer starts here-->
-    <div class="footer-wrapp">
-        <h2>(3) Contact</h2>
-        <h3>Get in touch</h3>
-        <form>
+    
+        <!-- Main content ends here -->
+        <!--Footer starts here-->
+        <div class="footer-wrapp">
+            <h2>(3) Contact</h2>
+            <h3>Get in touch</h3>
+            <form>
             <label for="Your name">Your name:</label>
             <br>
             <input type="text" id="fname-lname" 
             name="fname-lname" value="Michael Scott">
             <br>
-        </form>
+            </form>
 
-        <form>
+            <form>
             <label for="email">Your e-mail:</label>
             <br>
             <input type="email" id="email" 
             name="email" value="Dunder_Mifflin@gmail.com">
             <br>
-        </form>
-        <button class="button-getstarted">Get Started</button>
+            </form>
+            <button class="button-getstarted">Get Started</button>
+        </div>
+        <!--Footer ends here-->
     </div>
-    <!--Footer ends here-->
 </body>
 </html>

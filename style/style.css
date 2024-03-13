@@ -75,33 +75,89 @@ select {
 }
 /* END CSS REST*/
 
+.main-content-wrapper {
+  width: 1280px;
+  height: 3219px;
+  top: -698px;
+  left: -161px;
+  background-color:#FBF6F3;
 
+}
 /* NAVIGATION */
+
+header {
+  width: 1097px;
+  height: 692px;
+  top: 75px;
+  left: 91px;
+  border-radius: 20px;
+  border: 1px;
+  width: 1097px;
+
+}
 .top {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+
+
 }
 .logo {
   
+  position:absolute;
+  top: 75px;
+  left: 100px;
+  width: 257px;
+  height: 21px;
   display:inline;
-
+  
   font-family: Inter;
   font-size: 17px;
   font-weight: 500;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
+  color:#494A49;
+}
 
+ul li {
+  display: inline;
+  position:absolute;
+  left: 479px;
+  top: 75px;
+
+  align-items: baseline;
 
 }
-ul li {
+#li1 {
   
-  display:inline;
-  margin: 10px 60px 10px 10px;
+  
+
+  left: 479px;
+  top: 75px;
+  width: 79px;
+  height: 21px;
+  margin-right: 40px;
+}
+#li2 {
+  
+
+  left: 598px;
+  top: 75px;
+  width: 102px;
+  height: 21px;
+  margin-right: 40px;
+}
+
+#li3 {
+  
+
+  left: 717px;
+  top: 75px;
+  width: 133px;
+  height: 21px;
+  margin-right: 40px;
 }
 
 .button-contact {
+  position:absolute;
   width: 130px;
   height: 30px;
   top: 75px;
@@ -121,10 +177,12 @@ ul li {
   border: 1px;
 }
 .title-wrapper h1 {
+  position: absolute;
+  left: 139px;
+  top: 145px;
   width: 1097px;
   height: 119px;
-  top: 196px;
-  left: 91px;
+  
   font-family: Inter;
   font-size: 98px;
   font-weight: 500;
@@ -134,8 +192,8 @@ ul li {
   color:#494A49;
 }
 .title-wrapper img {
-  width: 100%;
-  max-width: 1080px;
+  position: absolute;
+  width: 1080px;
   height: 290px;
   top: 375px;
   left: 100px;
@@ -144,7 +202,9 @@ ul li {
 
 }
 .title-wrapper p {
-  
+  position: absolute;
+  left:114px;
+  top: 674px;
   font-family: Inter;
   font-size: 17px;
   font-weight: 500;
@@ -152,20 +212,323 @@ ul li {
   letter-spacing: 0em;
   text-align: left;
   color:#494A49;
-  ;
+  margin-top: 60px;
 }
 
 .intro-wrapper {
   align-items: baseline;
 }
 
+
 .button-getstarted {
+  position:absolute;
   width: 180px;
   height: 30px;
-  top: 725px;
+  top: 674px;
   left: 1002px;
   border-radius: 20px;
   border: 1px;
-  margin-left: 1002px;
+  margin-top: 60px;
 
+}
+
+.flight-routes-wrapper {
+  position: static;
+  margin-left: 100px;
+  margin-top: 142px;
+
+  width: 1080px;
+  height: 496px;
+  top: 846px;
+  left: 100px;
+
+}
+.flight-routes-wrapper h2 {
+  width: 160px;
+  height: 21px;
+  top: 846px;
+  left: 100px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #494A49;
+}
+.all-routes {
+  display:flex;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+.all-routes img {
+  width: 310px;
+  height: 265px;
+  top: 146px;
+  left: 100px;
+  border-radius: 20px;
+
+}
+.route1 {
+  border: 1px solid #494A49;
+  border-radius: 20px;
+  width: 310px;
+  height: 400px;
+
+}
+.route2 {
+  left:485px;
+  border: 1px solid #494A49;
+  border-radius: 20px;
+  width: 310px;
+  height: 400px;
+}
+.route3 {
+  left: 870px;
+  border: 1px solid #494A49;
+  border-radius: 20px;
+  width: 310px;
+  height: 400px;
+  
+}
+#Rout1 {
+  position:absolute;
+  left: 120px;
+  top: 1227px;
+
+  width: 102px;
+  height: 21px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #494A49;
+}
+.route1 .button-learnmore {
+  position: absolute;
+  top: 1289px;
+  left: 120px;
+
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px;
+  color: #494A49;
+  
+}
+
+#Rout2 {
+  position:absolute;
+  left: 505px;
+  top: 1227px;
+
+  width: 102px;
+  height: 21px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: Inter;
+  color: #494A49;
+
+}
+.route2 .button-learnmore {
+  
+  position: absolute;
+  top: 1289px;
+  left: 505px;
+
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px;
+  color: #494A49;
+}
+
+#Rout3 {
+  position:absolute;
+  left: 890px;
+  top: 1227px;
+
+  width: 102px;
+  height: 21px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: Inter;
+  color: #494A49;
+}
+.route3 .button-learnmore {
+  
+  position: absolute;
+  top: 1289px;
+  left: 890px;
+
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px;
+  color: #494A49;
+}
+/* End flight routes block */
+
+
+
+/* Start studying proc block*/
+
+.studying-proc-wrapper {
+  position:absolute;
+  width: 1080px;
+  height: 1174px;
+  top: 1442px;
+  left: 100px;
+  padding: 50px, 100px, 50px, 100px;
+
+}
+h2 {
+  width: 160px;
+  height: 21px;
+  top: 50px;
+  left: 100px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #494A49;
+
+}
+.ground-training {
+  width: 1080px;
+  height: 143px;
+  top: 146px;
+  left: 100px;
+  color: #494A49;
+}
+h3 {
+  width: 750px;
+  height: 61px;
+  top: 146px;
+  left: 100px;
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #494A49;
+  text-transform: uppercase;
+}
+
+#ground-training {
+  width: 650px;
+  height: 84px;
+  top: 247px;
+  margin-left: 436px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #494A49;
+}
+
+.flight-sim-train {
+  width: 1080px;
+  height: 143px;
+  top: 146px;
+  left: 100px;
+  color: #494A49;
+}
+#flight-sim-train {
+  width: 650px;
+  height: 84px;
+  top: 247px;
+  margin-left: 436px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #494A49;
+}
+.primary-flight-train {
+  width: 1080px;
+  height: 143px;
+  top: 146px;
+  left: 100px;
+  color: #494A49;
+}
+#primary-flight-train {
+  width: 650px;
+  height: 84px;
+  top: 247px;
+  margin-left: 436px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #494A49;
+}
+.debriefing {
+  width: 1080px;
+  height: 143px;
+  top: 146px;
+  left: 100px;
+  color: #494A49;
+}
+#debriefing {
+  width: 650px;
+  height: 84px;
+  top: 247px;
+  margin-left: 436px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #494A49;
+}
+.exam-prep {
+  width: 1080px;
+  height: 143px;
+  top: 146px;
+  left: 100px;
+  color: #494A49;
+}
+#exam-prep {
+  width: 650px;
+  height: 84px;
+  top: 247px;
+  margin-left: 436px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #494A49;
+  
+}
+
+.footer-wrapp {
+  position: absolute;
+  width: 1083px;
+  height: 545px;
+  left: 100px;
+  top: 2674px;
+  margin-top: 58px;
 }
