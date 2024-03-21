@@ -76,112 +76,91 @@ select {
 /* END CSS REST*/
 
 .main-content-wrapper {
-  width: 1280px;
+  width: 100%;
+  max-width: 1280px; 
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
   height: 3219px;
-  top: -698px;
-  left: -161px;
-  background-color:#FBF6F3;
-
+  background-color: #c1ebeb;
+  
 }
+
 /* NAVIGATION */
-
 header {
-  width: 1097px;
-  height: 692px;
-  top: 75px;
-  left: 91px;
-  border-radius: 20px;
-  border: 1px;
-  width: 1097px;
+  width: 100%;
+  max-width:1082px;
+  margin: 0 auto;
 
+  height:680px;
+  margin-left:auto;
+  margin-top:auto;
+  border: 1px solid red;
 }
+
+
 .top {
+  width: 100%;
+  max-width:1080px;
 
 
-}
-.logo {
-  
-  position:absolute;
-  top: 75px;
-  left: 100px;
-  width: 257px;
-  height: 21px;
-  display:inline;
-  
-  font-family: Inter;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: left;
-  color:#494A49;
+  display: flex;
+  justify-content: space-between;
+  height:30px;
+  border: 1px solid green;
 }
 
-ul li {
+#top-nav {
   display: inline;
-  position:absolute;
-  left: 479px;
-  top: 75px;
-
-  align-items: baseline;
-
 }
-#li1 {
-  
-  
+ul {
+  display: inline;
+}
 
-  left: 479px;
-  top: 75px;
-  width: 79px;
-  height: 21px;
-  margin-right: 40px;
+#li1 {
+  display: inline;
+  margin: 0px 40px 0px 0px;
 }
 #li2 {
-  
-
-  left: 598px;
-  top: 75px;
-  width: 102px;
-  height: 21px;
-  margin-right: 40px;
+  display: inline;
+  margin: 0px 40px 0px 0px;
 }
-
 #li3 {
-  
-
-  left: 717px;
-  top: 75px;
-  width: 133px;
-  height: 21px;
-  margin-right: 40px;
+  display: inline;
+  margin: 0px 40px 0px 0px;
 }
 
-.button-contact {
-  position:absolute;
-  width: 130px;
+.top .button-contact {
+  width:100%;
+  max-width: 130px;
+
   height: 30px;
   top: 75px;
   left: 1050px;
   border-radius: 20px;
   border: 1px;
-  
 }
-/* END NAVIGATION */
+
 .title-wrapper {
-  border:1px solid aqua;
-  width: 1097px;
-  height: 692px;
-  top: 75px;
-  left: 91px;
-  border-radius: 20px;
-  border: 1px;
+width:100%;
+max-width:1082px;
+margin: 0 auto;
+
+
+height:559px;
+border: 2px solid black;
 }
+
 .title-wrapper h1 {
-  position: absolute;
-  left: 139px;
-  top: 145px;
-  width: 1097px;
+  width:100%;
+  max-width: 1082px;
+
   height: 119px;
+  margin-bottom: 60px;
+  margin-top: 91px;
+  display: flex;
+  justify-content: center;
   
   font-family: Inter;
   font-size: 98px;
@@ -189,22 +168,72 @@ ul li {
   line-height: 119px;
   letter-spacing: 0em;
   text-align: left;
-  color:#494A49;
+  color: #494A49;
+
 }
+
 .title-wrapper img {
-  position: absolute;
-  width: 1080px;
+  width:100%;
+  max-width: 1080px;
+
   height: 290px;
   top: 375px;
   left: 100px;
   border-radius: 20px;
-  object-fit: contain;
+  margin-bottom: 60px;
+}
+.intro-wrapper {
+  width:100%;
+  max-width:1082px;
+  margin: 0 auto;
+  height:30px;
+
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid yellow;
+}
+
+#intro {
+  display: contents;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
 
 }
-.title-wrapper p {
-  position: absolute;
-  left:114px;
-  top: 674px;
+
+.intro-wrapper .button-getstarted {
+  width:100%;
+  max-width:180px;
+  
+
+  height: 30px;
+  border-radius: 20px;
+}
+
+.flight-routes-wrapper {
+  width:100%;
+  max-width:1080px;
+  margin: 0 auto;
+
+  height:496px;
+  margin-top:auto;
+  margin-left:auto;
+  margin-bottom:auto;
+  border:2px solid orange;
+}
+
+.flight-routes-wrapper h2 {
+  margin-bottom: 75px;
+  margin-top: 0px;
+
+  width: 128px;
+  height: 21px;
+  top: 867px;
+  left: 100px;
+
   font-family: Inter;
   font-size: 17px;
   font-weight: 500;
@@ -212,92 +241,41 @@ ul li {
   letter-spacing: 0em;
   text-align: left;
   color:#494A49;
-  margin-top: 60px;
 }
 
-.intro-wrapper {
-  align-items: baseline;
-}
-
-
-.button-getstarted {
-  position:absolute;
-  width: 180px;
-  height: 30px;
-  top: 674px;
-  left: 1002px;
-  border-radius: 20px;
-  border: 1px;
-  margin-top: 60px;
-
-}
-
-.flight-routes-wrapper {
-  position: static;
-  margin-left: 100px;
-  margin-top: 142px;
-
-  width: 1080px;
-  height: 496px;
-  top: 846px;
-  left: 100px;
-
-}
-.flight-routes-wrapper h2 {
-  width: 160px;
-  height: 21px;
-  top: 846px;
-  left: 100px;
-  font-family: Inter;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #494A49;
-}
 .all-routes {
-  display:flex;
+  width:100%;
+  max-width: 1080px;
+  margin: 0 auto;
+
+  height: 400px;
+  display: flex;
   justify-content: space-between;
-  margin-top: 75px;
+}
+.route1, .route2, .route3 {
+  width:100%;
+  max-width:310px;
+  height:400px;
+  margin: 0 auto;
+
+  border-radius: 20px;
+  border: 1px solid #494A49;
+
 }
 .all-routes img {
-  width: 310px;
+  width:100%;
+  max-width: 310px;
+
   height: 265px;
-  top: 146px;
-  left: 100px;
-  border-radius: 20px;
-
-}
-.route1 {
-  border: 1px solid #494A49;
-  border-radius: 20px;
-  width: 310px;
-  height: 400px;
-
-}
-.route2 {
-  left:485px;
-  border: 1px solid #494A49;
-  border-radius: 20px;
-  width: 310px;
-  height: 400px;
-}
-.route3 {
+  margin-bottom: 20px;
+  top: 963px;
   left: 870px;
-  border: 1px solid #494A49;
   border-radius: 20px;
-  width: 310px;
-  height: 400px;
-  
 }
-#Rout1 {
-  position:absolute;
-  left: 120px;
-  top: 1227px;
 
-  width: 102px;
-  height: 21px;
+#Rout1, #Rout2, #Rout3 {
+  margin-left: 20px;
+  margin-bottom: 20px;
   font-family: Inter;
   font-size: 17px;
   font-weight: 500;
@@ -305,230 +283,201 @@ ul li {
   letter-spacing: 0em;
   text-align: left;
   color: #494A49;
+  text-transform: uppercase;
+
 }
-.route1 .button-learnmore {
-  position: absolute;
+
+.button-learnmore {
+  width:100%;
+  max-width: 150px;
+
+  height: 30px;
+  margin-left:20px;
   top: 1289px;
   left: 120px;
-
-  width: 150px;
-  height: 30px;
   border-radius: 20px;
   border: 1px;
-  color: #494A49;
-  
-}
 
-#Rout2 {
-  position:absolute;
-  left: 505px;
-  top: 1227px;
-
-  width: 102px;
-  height: 21px;
   font-family: Inter;
   font-size: 17px;
   font-weight: 500;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
-  font-family: Inter;
   color: #494A49;
-
+  text-transform: uppercase;
 }
-.route2 .button-learnmore {
-  
-  position: absolute;
-  top: 1289px;
-  left: 505px;
-
-  width: 150px;
-  height: 30px;
-  border-radius: 20px;
-  border: 1px;
-  color: #494A49;
-}
-
-#Rout3 {
-  position:absolute;
-  left: 890px;
-  top: 1227px;
-
-  width: 102px;
-  height: 21px;
-  font-family: Inter;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: left;
-  font-family: Inter;
-  color: #494A49;
-}
-.route3 .button-learnmore {
-  
-  position: absolute;
-  top: 1289px;
-  left: 890px;
-
-  width: 150px;
-  height: 30px;
-  border-radius: 20px;
-  border: 1px;
-  color: #494A49;
-}
-/* End flight routes block */
-
-
-
-/* Start studying proc block*/
-
 .studying-proc-wrapper {
-  position:absolute;
-  width: 1080px;
-  height: 1174px;
-  top: 1442px;
-  left: 100px;
-  padding: 50px, 100px, 50px, 100px;
+  width:100%;
+  max-width:1080px;
+  margin: 0 auto;
 
+  margin-left:auto;
+  height:1174px;
+  border:2px solid purple;
 }
-h2 {
-  width: 160px;
-  height: 21px;
-  top: 50px;
-  left: 100px;
+.studying-proc-wrapper h2 {
+  width:100%;
+  max-width:160px;
+
+  height:21px;
+  margin-top:0px;
+  margin-bottom: 75px;
+
   font-family: Inter;
   font-size: 17px;
   font-weight: 500;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
-  color: #494A49;
+  color:#494A49;
+}
 
+.ground-training, .flight-sim-train,
+ .primary-flight-train, .debriefing, .exam-prep {
+  width:100%;
+  max-width:1080;
+  margin: 0 auto;
+
+  margin-bottom:auto;
+  height: 185px;
+  border:1px solid blue;
 }
-.ground-training {
-  width: 1080px;
-  height: 143px;
-  top: 146px;
-  left: 100px;
-  color: #494A49;
-}
-h3 {
-  width: 750px;
-  height: 61px;
-  top: 146px;
-  left: 100px;
+
+
+.studying-proc-wrapper h3 {
+  width:100%;
+  max-width:740px;
+  height:61px;
+
+  margin-top:0px;
+  margin-left:0px;
+  margin-bottom:20px;
+  
   font-family: Inter;
   font-size: 50px;
   font-weight: 400;
   line-height: 61px;
   letter-spacing: 0em;
   text-align: left;
-  color: #494A49;
+  color:#494A49;
   text-transform: uppercase;
 }
+.studying-proc-wrapper p {
+  width:100%;
+  max-width:566px;
 
-#ground-training {
-  width: 650px;
-  height: 84px;
-  top: 247px;
-  margin-left: 436px;
-  font-family: Inter;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #494A49;
-}
+  height:105px;
+  margin-top:auto;
+  margin-left:auto;
 
-.flight-sim-train {
-  width: 1080px;
-  height: 143px;
-  top: 146px;
-  left: 100px;
-  color: #494A49;
-}
-#flight-sim-train {
-  width: 650px;
-  height: 84px;
-  top: 247px;
-  margin-left: 436px;
   font-family: Inter;
   font-size: 17px;
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
-  color: #494A49;
+  color:#494A49;
+
 }
-.primary-flight-train {
-  width: 1080px;
-  height: 143px;
-  top: 146px;
-  left: 100px;
-  color: #494A49;
-}
-#primary-flight-train {
-  width: 650px;
-  height: 84px;
-  top: 247px;
-  margin-left: 436px;
-  font-family: Inter;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #494A49;
-}
-.debriefing {
-  width: 1080px;
-  height: 143px;
-  top: 146px;
-  left: 100px;
-  color: #494A49;
-}
-#debriefing {
-  width: 650px;
-  height: 84px;
-  top: 247px;
-  margin-left: 436px;
-  font-family: Inter;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #494A49;
-}
-.exam-prep {
-  width: 1080px;
-  height: 143px;
-  top: 146px;
-  left: 100px;
-  color: #494A49;
-}
-#exam-prep {
-  width: 650px;
-  height: 84px;
-  top: 247px;
-  margin-left: 436px;
-  font-family: Inter;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #494A49;
+.footer-wrapp {
+  width:100%;
+  max-width:1083px;
+  margin: 0 auto;
+
+  height:545px;
+  margin-left:auto;
+  margin-top:auto;
+  border:2px solid purple;
   
 }
+.footer-wrapp h2 {
+  width:100%;
+  max-width:160px;
 
-.footer-wrapp {
-  position: absolute;
-  width: 1083px;
-  height: 545px;
+  height:21px;
+  margin-top:0px;
+  margin-bottom: 75px;
+
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#494A49;
+}
+
+.footer-wrapp h3 {
+  width:100%;
+  max-width:358px;
+
+  height:61px;
+  margin-top:0px;
+  margin-left:0px;
+  margin-bottom: 40px;
+
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#494A49;
+  text-transform: uppercase;
+}
+.footer-wrapp label {
+  display:flex;
+  width:100%;
+  max-width:150px;
+
+  margin-left:0px;
+  margin-top:0px;
+  margin-bottom:20px;
+  height:21px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#494A49;
+}
+
+.footer-wrapp input {
+  width:100%;
+  max-width: 400px;
+
+  height: 50px;
+  top: 2898px;
   left: 100px;
-  top: 2674px;
-  margin-top: 58px;
+  border-radius: 20px;   
+  border: 1px;
+  border-color:#494A49;
+}
+
+#fname-lname {
+  margin-bottom:35px;
+}
+
+#email {
+  margin-bottom:40px;
+}
+
+.footer-wrapp .button-getstarted {
+  width:100%;
+  max-width: 180px;
+
+  height: 30px;
+  top: 3114px;
+  left: 100px;
+  border-radius: 20px;   
+
+}
+
+@media (max-width: 1250px) {
+  .main-content-wrapper {
+    border: 5px solid red;
+  }
+  /* … */
 }
